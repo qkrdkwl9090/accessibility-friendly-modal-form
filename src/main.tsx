@@ -1,10 +1,11 @@
-import "modern-normalize";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import ModalFormPage from "./ModalFormPage";
+import 'modern-normalize';
+import './index.css';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import Page from './Page';
 
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ModalFormPage />
-  </StrictMode>
+    <Page />
+  </StrictMode>,
 );
